@@ -1,0 +1,11 @@
+
+.center {
+    text-align: center;
+}
+
+.b {
+    margin: auto;
+    word-wrap: break-word;
+    width: 60%; 
+}
+

@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+    <h2>Oopsie! 🙈 Looks like this thingamajig is feeling a bit under the weather. My bad! But hey, no worries! I'm on it, and I'll have it back up and running in a jiffy! Thanks a bunch for your patience and understanding! 💖</h2>
+    <form action="email">
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" value="john"><br>
+        <label for="lname">Last name</label><br>
+        <input type="text" id="lname" value="john"><br>
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="subject">subject</label><br>
+        <input type="text" id="subject" value="..." size="40"><br>
+        <label for="body">body</label><br>
+        <textarea id="body" value="Please type here"  maxlength="500" rows="10" cols="50"></textarea><br>
+        <input type="button" value="Submit"><br>
+
+        <%- include("partials/footer.ejs") %>
