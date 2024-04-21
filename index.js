@@ -24,22 +24,22 @@ app.set('view engine', 'ejs');
 // Set the views directory
 app.set('views', join(__dirname, 'views'));
 
-app.get('/', (req, res) => {
+app.get('/resume', (req, res) => {
     // Render the index.ejs template
     res.render('index.ejs');
 });
 
-app.get('/contact', (req, res) => {
+app.get('/resume/contact', (req, res) => {
     // Render the index.ejs template
     res.render('contact.ejs');
 });
 
-app.get('/hobbies', (req, res) => {
+app.get('/resume/hobbies', (req, res) => {
     // Render the index.ejs template
     res.render('hobbies.ejs');
 });
 
-app.get('/projects', (req, res) => {
+app.get('/resume/projects', (req, res) => {
     // Render the index.ejs template
     res.render('projects.ejs');
 });
